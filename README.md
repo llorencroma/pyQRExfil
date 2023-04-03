@@ -21,4 +21,5 @@ This will recover the original files into a new folder *Decoded*
 - Readme file
 - Encode / Decode ZIP, binaries, ... (problems with characters encoding scheme)
 - Add option to create one GIF per file instead of on GIF for all
-- ?
+- Add options to modify the data blocks in which the files are split (currently 50Bytes, for no reason)
+- Need to test how it behaves for large files (max number of QR codes per GIF?)
